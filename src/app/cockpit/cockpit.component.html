@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Add books and articles in the list</h3>
+    <label>Element name:</label>
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="newElementName">
+    <label>Element content:</label>
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="newElementContent">
+    <br>
+    <button class="btn btn-primary" (click)="onAddBook()">Add book</button>
+    <button class="btn btn-primary" (click)="onAddArticle()">Add article</button>
+  </div>
+</div>
